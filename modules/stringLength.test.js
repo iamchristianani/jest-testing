@@ -1,4 +1,4 @@
-const stringLength = require('./stringLenth.js');
+const stringLength = require('./stringLenth');
 
 test('the number of strings for the word boy should be 3', () => {
   expect(stringLength('boy')).toBe(3);

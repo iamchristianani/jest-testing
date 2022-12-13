@@ -1,4 +1,4 @@
-const Calculator = require('./calculator.js');
+const Calculator = require('./calculator');
 
 describe('Adding ', () => {
   test('5 and 12 equals 17', () => {

@@ -1,4 +1,4 @@
-const capitalize = require('./capitalize.js');
+const capitalize = require('./capitalize');
 
 test('The string dance should be Dance', () => {
   expect(capitalize('dance')).toBe('Dance');
